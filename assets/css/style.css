@@ -2546,7 +2546,7 @@ About Section
 .about-img-2 .about-man::before {
   content: '';
   position: absolute;
-  background-image: url(../img/about/bg-shape.png);
+  /* background-image: url(../img/about/bg-shape.png); */
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
