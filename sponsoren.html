@@ -134,442 +134,28 @@
                     </h5>
                 </div>
                
-                <div class="service-slider owl-carousel owl-theme pt-45">
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/Bluamahof KG-Dornbirn.jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>Bluamahof KG-Dornbirn</h3>
-                        </a>
-                      
+               <div id="app">
+                <div class="row" >
+                    <div class="col-lg-3 col-sm-6" v-for="image in imageList" >
+                        <div class="contact-card">
+                            <div class="service-card"  >
+                                <a href="#">
+                                    <img :src="'assets/img/partners/' + image + '.JPG'" alt="Images">
+                                </a>
+                                <a href="#">
+                                    <h3>{{image}}</h3>
+                                </a>
+                              
+                            </div>
+                        </div>
                     </div>
-    
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/Jode e.U.-Dornbirn.jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>Jode e.U.-Dornbirn</h3>
-                        </a>
-                     
+                    <div class="col-lg-6 col-sm-6">
+                       
                     </div>
-    
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/Limemotion-OG-Dornbirn_1.jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>Limemotion</h3>
-                        </a>
-                      
-                    </div>
-    
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/Erwin-Mennel-Bregenz.jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>Erwin-Mennel-Bregenz</h3>
-                        </a>
-                      
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/TriMM Trockenbau-Bregenz.jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>TriMM Trockenbau</h3>
-                        </a>
-                      
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/Bau & Galanteriespenglerei Christian Scharf-Innsbruck.jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>Bau & Galanteriespenglerei Christian Scharf-Innsbruck</h3>
-                        </a>
-                      
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/BCG DI Harald Wiesinger-Innsbruck.jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>BCG DI Harald Wiesinger-Innsbruck.jpg</h3>
-                        </a>
-                      
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/Heli's Meisterwerkstätte-Arnfels.jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>Heli's Meisterwerkstätte-Arnfels</h3>
-                        </a>
-                      
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/Herz Austria Gmbh-Schönberg am Stubaital.jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>Herz Austria Gmbh-Schönberg am Stubaital</h3>
-                        </a>
-                      
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/HP-Projektbau-GmbH-Dornbirn_1.jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>HP-Projektbau-GmbH-Dornbirn</h3>
-                        </a>
-                      
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/Krimbacher KG-Jochberg.jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>Krimbacher KG-Jochberg</h3>
-                        </a>
-                      
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/Level26 Zimmermann Markus-Kaltenbach.jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>Level26 Zimmermann Markus-Kaltenbach</h3>
-                        </a>
-                      
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/Mag. Martha Kantor-Wenigzell.jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>Mag. Martha Kantor-Wenigzell</h3>
-                        </a>
-                      
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/Manuel Penker-Krems in Kärnten.jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>Manuel Penker-Krems in Kärnten</h3>
-                        </a>
-                      
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/MDC Transporte e.U.-Dornbirn.jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>MDC Transporte e.U.-Dornbirn</h3>
-                        </a>
-                      
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/Pizzeria Bella Fonte-Neustift im Stubaital.jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>Pizzeria Bella Fonte-Neustift im Stubaital</h3>
-                        </a>
-                      
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/RuDi-Glasfaser-NetzwerktechnikOG-Dornbirn_1.jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>RuDi-Glasfaser-NetzwerktechnikOG-Dornbirn</h3>
-                        </a>
-                      
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/Siller Glas gmbh-Fügen.jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>Siller Glas gmbh-Fügen</h3>
-                        </a>
-                      
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/Spar Ferchl-Neustift im Stubaital.jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>Spar Ferchl-Neustift im Stubaital</h3>
-                        </a>
-                      
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/Tiroler Lamellierholz gmbh-Silz.jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>Tiroler Lamellierholz gmbh-Silz</h3>
-                        </a>
-                      
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/Unger Erwin Gartenbaubetrieb GmbH-Wallern.jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>Unger Erwin Gartenbaubetrieb GmbH-Wallern</h3>
-                        </a>
-                      
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/ZMP Zadruga Markt-Bleiburg.jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>ZMP Zadruga Markt-Bleiburg</h3>
-                        </a>
-                      
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/BAL-GmbH-Bregenz.jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>BAL-GmbH-Bregenz</h3>
-                        </a>              
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/Christian Lang-Salzburg.jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>Christian Lang-Salzburg</h3>
-                        </a>              
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/Der Buchbinder KÖLL Innsbruck .jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>Der Buchbinder KÖLL Innsbruck</h3>
-                        </a>              
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/DI. Josef Kreutzer-Bregenz.jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>DI. Josef Kreutzer-Bregenz</h3>
-                        </a>              
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/ER-system Mechatronik gmbh-golling an der salzach.jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>ER-system Mechatronik gmbh-golling an der salzach</h3>
-                        </a>              
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/Grünewald Fruchtsaft gesmbh-Stainz.jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>Grünewald Fruchtsaft gesmbh-Stainz</h3>
-                        </a>              
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/Heliotherm-Gmbh-Unterlangkampfen.jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>Heliotherm-Gmbh-Unterlangkampfen</h3>
-                        </a>              
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/Johann Jun. Haselsberger-Scheffau.jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>Johann Jun. Haselsberger-Scheffau</h3>
-                        </a>              
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/Klocker Sport&Mode Gmbh-Pill.jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>Klocker Sport&Mode Gmbh-Pill</h3>
-                        </a>              
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/Starke Partner Dienstleistungen OG (BLICOM)-Dornbirn.jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>Starke Partner Dienstleistungen OG (BLICOM)-Dornbirn</h3>
-                        </a>              
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/Andreas Halbeisen - Transporte GmbH-Dornbirn.jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>Andreas Halbeisen - Transporte GmbH-Dornbirn</h3>
-                        </a>              
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/Spendenkarussel - Kinder helfen Kindern-Dornbirn.jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>Spendenkarussel - Kinder helfen Kindern-Dornbirn.jpg</h3>
-                        </a>              
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/Heiztechnik Daniel Sutterlüti-Dornbirn.jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>Heiztechnik Daniel Sutterlüti-Dornbirn</h3>
-                        </a>              
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/test.jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>Fahrzeug Mäser KG-Dornbirn</h3>
-                        </a>              
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/BWD Dür Wöginger Busarello Steuerberatung OG-Dornbirn .jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>BWD Dür Wöginger Busarello Steuerberatung OG-Dornbirn</h3>
-                        </a>              
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/TOSCAR e.U.-Dornbirn.JPG" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>TOSCAR e.U.-Dornbirn</h3>
-                        </a>              
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/Swarovski Austria Vertriebsgesellschaft m.b.H.-Wattens.JPG" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>Swarovski Austria Vertriebsgesellschaft m.b.H.-Wattens</h3>
-                        </a>              
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/Roberto Pizza - Zustellservice-Dornbirn.JPG" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>Roberto Pizza - Zustellservice-Dornbirn</h3>
-                        </a>              
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/MED FIT Sporttherapie GmbH (MED FIT Beauty Vital)-Dornbirn.JPG" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>MED FIT Sporttherapie GmbH (MED FIT Beauty Vital)-Dornbirn</h3>
-                        </a>              
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/Kreil GmbH (Vision 4 you)-Dornbirn.jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>Kreil GmbH (Vision 4 you)-Dornbirn</h3>
-                        </a>              
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/HB Glasschmuck-bad häring.JPG" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>HB Glasschmuck-bad häring</h3>
-                        </a>              
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/Felser Stub'n-Arnfels.JPG" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>Felser Stub'n-Arnfels</h3>
-                        </a>              
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/Wst Walter Schröfl Transport gmbh-Liezen.JPG" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>Wst Walter Schröfl Transport gmbh-Liezen</h3>
-                        </a>              
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/Mag. Andrea Niedrist-Wiener Neustadt.jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>Mag. Andrea Niedrist-Wiener Neustadt</h3>
-                        </a>              
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/Nebojsa Mladenovic-Dornbirn-.JPG" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>Nebojsa Mladenovic-Dornbirn</h3>
-                        </a>              
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/Linhardt Immobilien GesmbH-Mödling-.jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>Linhardt Immobilien GesmbH-Mödling</h3>
-                        </a>              
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/Gebhardt Productions GmbH-Mödling-.JPG" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>Gebhardt Productions GmbH-Mödling</h3>
-                        </a>              
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/Alphaphone Telekommunikations Gmbh-Mödling-.jpg" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>Alphaphone Telekommunikations Gmbh-Mödling</h3>
-                        </a>              
-                    </div>
-                    <div class="service-card">
-                        <a href="#">
-                            <img src="assets/img/partners/360PM Dr. Friedrich & Partner KG-Mödling.JPG" alt="Images">
-                        </a>
-                        <a href="#">
-                            <h3>360PM Dr. Friedrich & Partner KG-Mödling</h3>
-                        </a>              
-                    </div>
+                
 
                 </div>
+               </div>
             </div>
             <div class="section-title text-center">
                 <!-- <span>Our Service</span> -->
@@ -633,5 +219,24 @@
         <script src="assets/js/contact-form-script.js"></script>
         <!-- Custom JS -->
         <script src="assets/js/custom.js"></script>
+        <script src="https://unpkg.com/vue@3"></script>
+        <script>
+            Vue.createApp({
+              data() {
+                return {
+                  message: 'Hello Vue!',
+                  imageList:["Bluamahof KG-Dornbirn","Jode e.U.-Dornbirn","Limemotion-OG-Dornbirn_1","Erwin-Mennel-Bregenz","TriMM Trockenbau-Bregenz","Bau & Galanteriespenglerei Christian Scharf-Innsbruck","BCG DI Harald Wiesinger-Innsbruck","Heli's Meisterwerkstätte-Arnfels","Herz Austria Gmbh-Schönberg am Stubaital","HP-Projektbau-GmbH-Dornbirn_1","Krimbacher KG-Jochberg","Level26 Zimmermann Markus-Kaltenbach","Mag. Martha Kantor-Wenigzell","Manuel Penker-Krems in Kärnten","MDC Transporte e.U.-Dornbirn","Pizzeria Bella Fonte-Neustift im Stubaital","RuDi-Glasfaser-NetzwerktechnikOG-Dornbirn_1","Siller Glas gmbh-Fügen","Spar Ferchl-Neustift im Stubaital","Tiroler Lamellierholz gmbh-Silz","Unger Erwin Gartenbaubetrieb GmbH-Wallern","ZMP Zadruga Markt-Bleiburg","BAL-GmbH-Bregenz","Christian Lang-Salzburg","innsbruck","DI. Josef Kreutzer-Bregenz","ER-system Mechatronik gmbh-golling an der salzach","Grünewald Fruchtsaft gesmbh-Stainz","Heliotherm-Gmbh-Unterlangkampfen","Johann Jun. Haselsberger-Scheffau","Klocker Sport&Mode Gmbh-Pill","Starke Partner Dienstleistungen OG (BLICOM)-Dornbirn","Andreas Halbeisen - Transporte GmbH-Dornbirn","Spendenkarussel - Kinder helfen Kindern-Dornbirn","Heiztechnik Daniel Sutterlüti-Dornbirn","test","steuerberatung","TOSCAR e.U.-Dornbirn","Swarovski Austria Vertriebsgesellschaft m.b.H.-Wattens","Roberto Pizza - Zustellservice-Dornbirn","MED FIT Sporttherapie GmbH (MED FIT Beauty Vital)-Dornbirn","Kreil GmbH (Vision 4 you)-Dornbirn","HB Glasschmuck-bad häring","Felser Stub'n-Arnfels","Wst Walter Schröfl Transport gmbh-Liezen","Mag. Andrea Niedrist-Wiener Neustadt","Nebojsa Mladenovic-Dornbirn-","Linhardt Immobilien GesmbH-Mödling-","Gebhardt Productions GmbH-Mödling-","Alphaphone Telekommunikations Gmbh-Mödling-","360PM Dr. Friedrich & Partner KG-Mödling","Autohaus K. Mayer GmbH-Hollabrunn","Blumen Weingartshofer GmbH-Korneuburg","Buerotechnik Streif Gmbh-Hollabrunn","CANDOL Produktions - und HandelsgesmbH-Mödling","Eduard und Johann Strobl GmbH-Suttenbrunn","Franz Angelis e.U.-Hollabrunn","Franz Pfaffstätter Kooperationspartner İmmoexpress Kg-Magersdorf","H.D. Eckhardt GesmbH (ringcrown)-Korneuburg","Immobilien Corner KG-Hollabrunn","Jet Tankstelle Jennifer Preiskorn-Mödling","Lammerhuber Kg-Baden","Lehner Partner Wirtschaftspruefungs und Steuerberatungsgesel-Baden bei Wien","Lois Leitner-HainzenbergJPG","Mail Boxes Etc Versand Verpackung Grafik Druck-Baden","Rainer Seewald e.U.-Hollabrunn","RATH & Co Ges.m.b.H.-Korneuburg","SEIDENAST Handels GmbH-Dornbirn","SMC Austria Gmbh-Korneuburg",
+                  "Sparkasse Niederösterreich Mitte West AG-St.Pölten ",
+                  "Stadtapotheke Mag.pharm. Christine Kronberger KG-Hollabrunn",
+                  "Thermokon Elektronik Components GmbH-Hollabrunn",
+                  "Zehetner GmbH-Hollabrunn",
+                "maser"],
+                }
+              },
+ 
+              
+            }).mount('#app')
+          </script>
+
     </body>
 </html>
